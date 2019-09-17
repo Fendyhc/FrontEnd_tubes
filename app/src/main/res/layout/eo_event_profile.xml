@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/background">
+
+    <EditText
+        android:id="@+id/NamaTxt"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="77dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Nama Event"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/NPMTxt"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="77dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Penyelenggara"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/UsernameTxt"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="77dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Tempat"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/PasswordTxt"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="77dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Waktu"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/ConfirmTxt"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="247dp"
+        android:layout_marginEnd="77dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Deskripsi Acara"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/HPTxt3"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="77dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Harga Tiket"
+        android:inputType="number|phone" />
+
+    <EditText
+        android:id="@+id/HPTxt4"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="429dp"
+        android:layout_marginEnd="77dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Nomor Rekening"
+        android:inputType="number|phone" />
+
+    <EditText
+        android:id="@+id/HPTxt6"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="77dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Nomor Rekening"
+        android:inputType="number|phone" />
+
+    <EditText
+        android:id="@+id/HPTxt5"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="474dp"
+        android:layout_marginEnd="77dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Atas Nama"
+        android:inputType="number|phone" />
+
+    <Button
+        android:id="@+id/RegisBtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp"
+        android:background="@color/button"
+        android:text="EDIT"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginBottom="-11dp"
+        android:background="@color/button"
+        android:src="@drawable/ic_party" />
+
+    <ImageButton
+        android:id="@+id/btnCart"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="-11dp"
+        android:background="@color/button"
+        android:src="@drawable/ic_people" />
+
+    <ImageButton
+        android:id="@+id/btnTicket"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-11dp"
+        android:background="@color/button"
+        android:src="@drawable/ic_profile" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="EVENT PROFILE"
+        android:textColor="@color/button"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

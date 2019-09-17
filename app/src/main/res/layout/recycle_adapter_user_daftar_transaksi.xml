@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Kode Booking"
+        android:id="@+id/RC_User_Daftar_TR_Kode" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nama Event"
+        android:id="@+id/RC_User_Daftar_TR_Name" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Harga Ticket"
+        android:id="@+id/RC_User_Daftar_TR_Harga" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Rekening"
+        android:id="@+id/RC_User_Daftar_TR_Norek" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Bank"
+        android:id="@+id/RC_User_Daftar_TR_Bank" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Atas Nama"
+        android:id="@+id/RC_User_Daftar_TR_Atasnama" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Status"
+        android:id="@+id/RC_User_Daftar_TR_Status" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nama Peserta"
+        android:id="@+id/RC_Admin_User_Name" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:id="@+id/RC_Admin_User_Email" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="NPM"
+        android:id="@+id/RC_Admin_User_NPM" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Fakultas"
+        android:id="@+id/RC_Admin_User_Fakultas" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Prodi"
+        android:id="@+id/RC_Admin_User_Prodi" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Handphone"
+        android:id="@+id/RC_Admin_User_HP" />
+
+</LinearLayout>

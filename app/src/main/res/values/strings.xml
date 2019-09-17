@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">FrontEnd_tubes</string>
+
+    <string-array name="filter">
+        <item>Seminar</item>
+        <item>Workshop</item>
+        <item>Organisasi dan Kepemimpinan</item>
+        <item>Minat dan Bakat</item>
+        <item>Pengabdian pada Masyarakat</item>
+    </string-array>
+
+    <string-array name="fakultas">
+        <item>Hukum</item>
+        <item>Teknnologi Industri</item>
+        <item>Bisnis dan Ekonomika</item>
+        <item>Teknik</item>
+        <item>Tekno Biologi</item>
+        <item>Ilmu Sosial dan Politik</item>
+    </string-array>
+
+    <string-array name="prodi">
+        <item>Teknik Informatika</item>
+        <item>Ilmu Hukum</item>
+        <item>Teknik Industri</item>
+        <item>Teknik Sipil</item>
+        <item>Arsitektur</item>
+        <item>Sosiologi</item>
+        <item>Ilmu Komunikasi</item>
+        <item>Akuntansi</item>
+        <item>Manajemen</item>
+        <item>Ekonomi Pembangunan</item>
+        <item>Sistem Informasi</item>
+        <item>Tekno Biologi</item>
+    </string-array>
+
+    <string-array name="bank">
+        <item>Mandiri</item>
+        <item>BCA</item>
+        <item>BRI</item>
+        <item>CIMB Niaga</item>
+        <item>BNI</item>
+        <item>OCBC  NISP</item>
+    </string-array>
+</resources>

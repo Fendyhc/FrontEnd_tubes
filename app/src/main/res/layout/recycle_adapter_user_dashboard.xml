@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nama Event"
+        android:id="@+id/RC_User_Dashboard_Name" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Tempat Diselenggarakan"
+        android:id="@+id/RC_User_Dashboard_Tempat" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Waktu Diselenggarakan"
+        android:id="@+id/RC_User_Dashboard_Waktu" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Harga Ticket"
+        android:id="@+id/RC_User_Dashboard_Harga" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Penyelenggara"
+        android:id="@+id/RC_User_Dashboard_Penyelenggara" />
+
+
+</LinearLayout>

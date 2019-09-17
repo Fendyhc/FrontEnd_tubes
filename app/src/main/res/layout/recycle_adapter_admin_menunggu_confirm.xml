@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nama Event"
+        android:id="@+id/RC_Admin_menunggu_Name" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Penyelenggara"
+        android:id="@+id/RC_Admin_menunggu_Penyelenggara" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Tempat"
+        android:id="@+id/RC_Admin_menunggu_Tempat" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Waktu"
+        android:id="@+id/RC_Admin_menunggu_Waktu" />
+
+</LinearLayout>
