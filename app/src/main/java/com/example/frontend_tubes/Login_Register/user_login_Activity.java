@@ -37,6 +37,14 @@ public class user_login_Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(user_login_Activity.this, register_account_Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     public void setAtribut (){

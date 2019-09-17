@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.frontend_tubes.R;
+import com.example.frontend_tubes.User.user_dashboard_Activity;
 
 import java.net.UnknownServiceException;
 
@@ -27,6 +28,14 @@ public class eo_login_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(eo_login_Activity.this,user_login_Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(eo_login_Activity.this, user_dashboard_Activity.class);
                 startActivity(intent);
             }
         });
