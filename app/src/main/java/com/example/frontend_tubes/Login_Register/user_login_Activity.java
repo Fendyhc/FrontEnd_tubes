@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.frontend_tubes.R;
+import com.example.frontend_tubes.User.user_dashboard_Activity;
 
 public class user_login_Activity extends AppCompatActivity {
 
@@ -32,7 +33,7 @@ public class user_login_Activity extends AppCompatActivity {
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(user_login_Activity.this,.);
+                Intent intent = new Intent(user_login_Activity.this, user_dashboard_Activity.class);
                 startActivity(intent);
             }
         });
