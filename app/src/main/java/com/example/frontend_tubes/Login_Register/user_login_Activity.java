@@ -28,6 +28,14 @@ public class user_login_Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(user_login_Activity.this,.);
+                startActivity(intent);
+            }
+        });
     }
 
     public void setAtribut (){
