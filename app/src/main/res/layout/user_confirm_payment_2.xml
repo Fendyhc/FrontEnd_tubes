@@ -73,7 +73,7 @@
             android:textSize="20dp" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/user_confirm_payment2_NameTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -85,7 +85,7 @@
             android:textSize="17dp" />
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/user_confirm_payment2_HargaTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -97,7 +97,7 @@
             android:textSize="17dp" />
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/user_confirm_payment2_NorekTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -109,7 +109,7 @@
             android:textSize="17dp" />
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/user_confirm_payment2_BankTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -121,7 +121,7 @@
             android:textSize="17dp" />
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/user_confirm_payment2_AtasnamaTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -135,7 +135,7 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/user_confirm_payment2_ConfirmBtn"
         android:layout_width="200dp"
         android:layout_height="65dp"
         android:layout_alignParentBottom="true"
@@ -158,7 +158,7 @@
         android:textStyle="bold" />
 
     <ImageButton
-        android:id="@+id/btnHome"
+        android:id="@+id/user_confirm_payment2_btnHome"
         android:layout_width="111dp"
         android:layout_height="70dp"
         android:layout_alignParentStart="true"
@@ -169,7 +169,7 @@
         android:src="@drawable/ic_home" />
 
     <ImageButton
-        android:id="@+id/btnCart"
+        android:id="@+id/user_confirm_payment2_btnCart"
         android:layout_width="110dp"
         android:layout_height="70dp"
         android:layout_alignParentEnd="true"
@@ -180,7 +180,7 @@
         android:src="@drawable/ic_cart" />
 
     <ImageButton
-        android:id="@+id/btnTicket"
+        android:id="@+id/user_confirm_payment2_btnTicket"
         android:layout_width="110dp"
         android:layout_height="70dp"
         android:layout_alignParentStart="true"
@@ -193,7 +193,7 @@
         android:src="@drawable/ic_ticket" />
 
     <ImageButton
-        android:id="@+id/btnProfile"
+        android:id="@+id/user_confirm_payment2_btnProfile"
         android:layout_width="120dp"
         android:layout_height="70dp"
         android:layout_alignParentStart="true"
@@ -215,7 +215,7 @@
         android:background="@color/white">
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/user_confirm_payment2_NameInput"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -229,7 +229,7 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/user_confirm_payment2_AtasnamaInput"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"

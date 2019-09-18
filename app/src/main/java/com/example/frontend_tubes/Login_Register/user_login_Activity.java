@@ -48,8 +48,8 @@ public class user_login_Activity extends AppCompatActivity {
     }
 
     public void setAtribut (){
-        EO = findViewById(R.id.EOBtn);
-        Login = findViewById(R.id.LoginBtn);
-        signup = findViewById(R.id.SignUpTxt);
+        EO = findViewById(R.id.user_login_EOBtn);
+        Login = findViewById(R.id.user_login_LoginBtn);
+        signup = findViewById(R.id.user_login_SignUpTxt);
     }
 }

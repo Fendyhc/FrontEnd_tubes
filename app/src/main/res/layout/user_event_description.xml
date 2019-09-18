@@ -80,7 +80,7 @@
             android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/user_event_description_NameTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -91,7 +91,7 @@
             android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/user_event_description_PenyelenggaraTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -102,7 +102,7 @@
             android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/user_event_description_LokasiTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -113,7 +113,7 @@
             android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/user_event_description_WaktuTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -124,7 +124,7 @@
             android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/user_event_description_HargaTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -135,7 +135,7 @@
             android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/textView17"
+            android:id="@+id/user_event_description_DeskripsiTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -148,7 +148,7 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/user_event_description_BtnBuy"
         android:layout_width="200dp"
         android:layout_height="65dp"
         android:layout_alignParentBottom="true"
@@ -171,7 +171,7 @@
         android:textStyle="bold" />
 
     <ImageButton
-        android:id="@+id/btnHome"
+        android:id="@+id/user_event_description_btnHome"
         android:layout_width="111dp"
         android:layout_height="70dp"
         android:layout_alignParentStart="true"
@@ -182,7 +182,7 @@
         android:src="@drawable/ic_home" />
 
     <ImageButton
-        android:id="@+id/btnCart"
+        android:id="@+id/user_event_description_btnCart"
         android:layout_width="110dp"
         android:layout_height="70dp"
         android:layout_alignParentEnd="true"
@@ -193,7 +193,7 @@
         android:src="@drawable/ic_cart" />
 
     <ImageButton
-        android:id="@+id/btnTicket"
+        android:id="@+id/user_event_description_btnTicket"
         android:layout_width="110dp"
         android:layout_height="70dp"
         android:layout_alignParentStart="true"
@@ -206,7 +206,7 @@
         android:src="@drawable/ic_ticket" />
 
     <ImageButton
-        android:id="@+id/btnProfile"
+        android:id="@+id/user_event_description_btnProfile"
         android:layout_width="120dp"
         android:layout_height="70dp"
         android:layout_alignParentStart="true"

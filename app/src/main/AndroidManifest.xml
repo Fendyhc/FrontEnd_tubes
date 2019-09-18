@@ -4,8 +4,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/mainlogo"
+        android:label="UAJT.TIX"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -17,6 +17,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login_Register.eo_login_Activity"/>
+        <activity android:name=".Login_Register.register_account_Activity"/>
+        <activity android:name=".User.user_confirm_event_Activity"/>
+        <activity android:name=".User.user_dashboard_Activity"/>
+        <activity android:name=".User.user_confirm_payment_Activity"/>
+        <activity android:name=".User.user_confirm_payment_Acitivity_2"/>
+        <activity android:name=".User.user_confirm_transaksi_Activity"/>
+        <activity android:name=".User.user_daftar_transaksi_Activity"/>
+        <activity android:name=".User.user_edit_payment_Activity"/>
+        <activity android:name=".User.user_edit_profile_Activity"/>
+        <activity android:name=".User.user_event_description_Activity"/>
+        <activity android:name=".User.user_payment_detail_Activity"/>
+        <activity android:name=".User.user_profile_Activity"/>
+        <activity android:name=".User.user_register_event_Activity"/>
+        <activity android:name=".User.user_tiket_saya_Activity"/>
     </application>
 
 </manifest>

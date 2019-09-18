@@ -16,7 +16,6 @@ import java.net.UnknownServiceException;
 public class eo_login_Activity extends AppCompatActivity {
 
     public Button User,Login;
-    public TextView signup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,8 +41,7 @@ public class eo_login_Activity extends AppCompatActivity {
     }
 
     public void setAtribut (){
-        User = findViewById(R.id.UserBtn);
-        Login = findViewById(R.id.LoginBtn);
-        signup = findViewById(R.id.SignUpTxt);
+        User = findViewById(R.id.eo_login_UserBtn);
+        Login = findViewById(R.id.eo_login_LoginBtn);
     }
 }

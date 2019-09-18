@@ -4,7 +4,7 @@
     android:layout_height="match_parent" android:background="@color/background">
 
     <EditText
-        android:id="@+id/NamaTxt"
+        android:id="@+id/user_edit_profile_NamaTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -20,7 +20,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/NPMTxt"
+        android:id="@+id/user_edit_profile_NPMTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -36,7 +36,7 @@
         android:inputType="number" />
 
     <EditText
-        android:id="@+id/UsernameTxt"
+        android:id="@+id/user_edit_profile_UsernameTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -52,7 +52,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/PasswordTxt"
+        android:id="@+id/user_edit_profile_PasswordTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -68,7 +68,7 @@
         android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/ConfirmTxt"
+        android:id="@+id/user_edit_profile_ConfirmTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -84,7 +84,7 @@
         android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/EmailTxt"
+        android:id="@+id/user_edit_profile_EmailTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -100,7 +100,7 @@
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/HPTxt"
+        android:id="@+id/user_edit_profile_HPTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -116,7 +116,7 @@
         android:inputType="number|phone" />
 
     <Spinner
-        android:id="@+id/FakultasSpinner"
+        android:id="@+id/user_edit_profile_FakultasSpinner"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -130,7 +130,7 @@
         android:entries="@array/fakultas" />
 
     <Spinner
-        android:id="@+id/ProdiSpinner"
+        android:id="@+id/user_edit_profile_ProdiSpinner"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -144,7 +144,7 @@
         android:entries="@array/prodi" />
 
     <Button
-        android:id="@+id/RegisBtn"
+        android:id="@+id/user_edit_profile_CancelBtn"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
@@ -156,7 +156,7 @@
         android:textSize="20dp" />
 
     <Button
-        android:id="@+id/regisBtn"
+        android:id="@+id/user_edit_profile_ConfirmBtn"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_alignParentEnd="true"
@@ -178,5 +178,53 @@
         android:textColor="@color/button"
         android:textSize="30dp"
         android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/user_edit_profile_btnHome"
+        android:layout_width="111dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginBottom="-11dp"
+        android:background="@color/button"
+        android:src="@drawable/ic_home" />
+
+    <ImageButton
+        android:id="@+id/user_edit_profile_btnCart"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="195dp"
+        android:layout_marginBottom="-11dp"
+        android:background="@color/button"
+        android:src="@drawable/ic_cart" />
+
+    <ImageButton
+        android:id="@+id/user_edit_profile_btnTicket"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="-11dp"
+        android:background="@color/button"
+        android:src="@drawable/ic_ticket" />
+
+    <ImageButton
+        android:id="@+id/user_edit_profile_btnProfile"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="314dp"
+        android:layout_marginEnd="-20dp"
+        android:layout_marginBottom="-11dp"
+        android:background="@color/button"
+        android:src="@drawable/ic_profile" />
 
 </RelativeLayout>

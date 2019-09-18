@@ -66,7 +66,7 @@
         android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/LoginBtn"
+        android:id="@+id/eo_login_LoginBtn"
         android:layout_width="150dp"
         android:layout_height="55dp"
         android:layout_alignParentBottom="true"
@@ -77,7 +77,7 @@
         android:textSize="30dp" />
 
     <Button
-        android:id="@+id/UserBtn"
+        android:id="@+id/eo_login_UserBtn"
         android:layout_width="205dp"
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
@@ -89,7 +89,7 @@
         android:textSize="25dp" />
 
     <Button
-        android:id="@+id/EOBtn"
+        android:id="@+id/eo_login_EOBtn"
         android:layout_width="205dp"
         android:layout_height="50dp"
         android:layout_alignParentEnd="true"
