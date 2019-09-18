@@ -32,6 +32,14 @@
         <activity android:name=".User.user_profile_Activity"/>
         <activity android:name=".User.user_register_event_Activity"/>
         <activity android:name=".User.user_tiket_saya_Activity"/>
+        <activity android:name=".EO.eo_edit_event_Activity"/>
+        <activity android:name=".EO.eo_event_profile_Activity"/>
+        <activity android:name=".EO.eo_daftar_peserta_Activity"/>
+        <activity android:name=".EO.eo_daftar_confirm_Activity"/>
+        <activity android:name=".admin.admin_daftar_event_Activity"/>
+        <activity android:name=".admin.admin_daftar_user_Activity"/>
+        <activity android:name=".admin.admin_confirm_event_Activity"/>
+        <activity android:name=".admin.admin_confirm_event_Activity_2"/>
     </application>
 
 </manifest>

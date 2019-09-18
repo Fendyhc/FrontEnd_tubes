@@ -42,8 +42,8 @@ public class register_account_Activity extends AppCompatActivity {
     }
 
     public void setAtribut (){
-        Login = findViewById(R.id.LoginTxt);
-        Daftar = findViewById(R.id.RegisBtn);
+        Login = findViewById(R.id.register_LoginTxt);
+        Daftar = findViewById(R.id.register_RegisBtn);
     }
 
     public void openDialog() {
