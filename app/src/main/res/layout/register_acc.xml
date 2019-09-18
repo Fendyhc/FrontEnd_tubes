@@ -6,7 +6,7 @@
 
 
     <EditText
-        android:id="@+id/NamaTxt"
+        android:id="@+id/register_NamaTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -22,7 +22,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/NPMTxt"
+        android:id="@+id/register_NPMTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -38,7 +38,7 @@
         android:inputType="number" />
 
     <EditText
-        android:id="@+id/UsernameTxt"
+        android:id="@+id/register_UsernameTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -54,7 +54,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/PasswordTxt"
+        android:id="@+id/register_PasswordTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -70,7 +70,7 @@
         android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/ConfirmTxt"
+        android:id="@+id/register_ConfirmTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -86,7 +86,7 @@
         android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/EmailTxt"
+        android:id="@+id/register_EmailTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -102,7 +102,7 @@
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/HPTxt"
+        android:id="@+id/register_HPTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -118,7 +118,7 @@
         android:inputType="number|phone" />
 
     <Spinner
-        android:id="@+id/FakultasSpinner"
+        android:id="@+id/register_FakultasSpinner"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -132,7 +132,7 @@
         android:entries="@array/fakultas" />
 
     <Spinner
-        android:id="@+id/ProdiSpinner"
+        android:id="@+id/register_ProdiSpinner"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -146,7 +146,7 @@
         android:entries="@array/prodi" />
 
     <Button
-        android:id="@+id/RegisBtn"
+        android:id="@+id/register_RegisBtn"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
@@ -168,13 +168,13 @@
         android:textColor="@color/button" />
 
     <TextView
-        android:id="@+id/LoginTxt"
+        android:id="@+id/register_LoginTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="112dp"
-        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="42dp"
         android:text="Log In"
         android:textColor="@color/button" />
 
