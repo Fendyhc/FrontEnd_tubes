@@ -4,7 +4,7 @@
     android:layout_height="match_parent" android:background="@color/background">
 
     <EditText
-        android:id="@+id/NamaTxt"
+        android:id="@+id/eo_edit_event_NamaTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -20,7 +20,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/NPMTxt"
+        android:id="@+id/eo_edit_event_PenyelenggaraTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -33,10 +33,10 @@
         android:background="@android:color/white"
         android:ems="10"
         android:hint="Penyelenggara"
-        android:inputType="number" />
+        android:inputType="text" />
 
     <EditText
-        android:id="@+id/UsernameTxt"
+        android:id="@+id/eo_edit_event_TempatTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -49,10 +49,10 @@
         android:background="@android:color/white"
         android:ems="10"
         android:hint="Tempat"
-        android:inputType="textPersonName" />
+        android:inputType="text" />
 
     <EditText
-        android:id="@+id/PasswordTxt"
+        android:id="@+id/eo_edit_event_WaktuTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -65,10 +65,10 @@
         android:background="@android:color/white"
         android:ems="10"
         android:hint="Waktu"
-        android:inputType="textPassword" />
+        android:inputType="text" />
 
     <EditText
-        android:id="@+id/ConfirmTxt"
+        android:id="@+id/eo_edit_event_DeskripsiTxt"
         android:layout_width="250dp"
         android:layout_height="80dp"
         android:layout_alignParentStart="true"
@@ -81,10 +81,10 @@
         android:background="@android:color/white"
         android:ems="10"
         android:hint="Deskripsi Acara"
-        android:inputType="textPassword" />
+        android:inputType="text" />
 
     <EditText
-        android:id="@+id/EmailTxt"
+        android:id="@+id/eo_edit_event_UsernameEOTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -97,10 +97,10 @@
         android:background="@android:color/white"
         android:ems="10"
         android:hint="Username EO"
-        android:inputType="textEmailAddress" />
+        android:inputType="text" />
 
     <EditText
-        android:id="@+id/HPTxt"
+        android:id="@+id/eo_edit_event_PassEOTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -113,10 +113,10 @@
         android:background="@android:color/white"
         android:ems="10"
         android:hint="Password EO"
-        android:inputType="number|phone" />
+        android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/HPTxt2"
+        android:id="@+id/eo_edit_event_ConPassEOTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -129,10 +129,10 @@
         android:background="@android:color/white"
         android:ems="10"
         android:hint="Confirm Password"
-        android:inputType="number|phone" />
+        android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/HPTxt3"
+        android:id="@+id/eo_edit_event_HargaTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -145,10 +145,10 @@
         android:background="@android:color/white"
         android:ems="10"
         android:hint="Harga Tiket"
-        android:inputType="number|phone" />
+        android:inputType="numberDecimal" />
 
     <EditText
-        android:id="@+id/HPTxt4"
+        android:id="@+id/eo_edit_event_NorekTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -161,10 +161,10 @@
         android:background="@android:color/white"
         android:ems="10"
         android:hint="Nomor Rekening"
-        android:inputType="number|phone" />
+        android:inputType="number" />
 
     <EditText
-        android:id="@+id/HPTxt5"
+        android:id="@+id/eo_edit_event_AtasnamaTxt"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -177,10 +177,10 @@
         android:background="@android:color/white"
         android:ems="10"
         android:hint="Atas Nama"
-        android:inputType="number|phone" />
+        android:inputType="text" />
 
     <Spinner
-        android:id="@+id/ProdiSpinner"
+        android:id="@+id/eo_edit_event_BankSpinner"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -194,7 +194,7 @@
         android:entries="@array/bank" />
 
     <Button
-        android:id="@+id/CancelBtn"
+        android:id="@+id/eo_edit_event_CancelBtn"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
@@ -206,7 +206,7 @@
         android:textSize="20dp" />
 
     <Button
-        android:id="@+id/RegisBtn"
+        android:id="@+id/eo_edit_event_ConfirmBtn"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_alignParentEnd="true"

@@ -148,7 +148,7 @@
         android:inputType="number|phone" />
 
     <Button
-        android:id="@+id/RegisBtn"
+        android:id="@+id/eo_event_profile_EditBtn"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
@@ -159,7 +159,7 @@
         android:textSize="20dp" />
 
     <ImageButton
-        android:id="@+id/btnHome"
+        android:id="@+id/eo_event_profile_btnHome"
         android:layout_width="140dp"
         android:layout_height="70dp"
         android:layout_alignParentStart="true"
@@ -170,7 +170,7 @@
         android:src="@drawable/ic_party" />
 
     <ImageButton
-        android:id="@+id/btnCart"
+        android:id="@+id/eo_event_profile_btnPeserta"
         android:layout_width="140dp"
         android:layout_height="70dp"
         android:layout_alignParentEnd="true"
@@ -182,7 +182,7 @@
         android:src="@drawable/ic_people" />
 
     <ImageButton
-        android:id="@+id/btnTicket"
+        android:id="@+id/eo_event_profile_btnProfil"
         android:layout_width="140dp"
         android:layout_height="70dp"
         android:layout_alignParentEnd="true"
