@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.frontend_tubes.R;
+import com.example.frontend_tubes.User.user_dashboard_Activity;
 
 public class user_login_Activity extends AppCompatActivity {
 
@@ -25,6 +26,22 @@ public class user_login_Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(user_login_Activity.this,eo_login_Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        Login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(user_login_Activity.this, user_dashboard_Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(user_login_Activity.this, register_account_Activity.class);
                 startActivity(intent);
             }
         });
