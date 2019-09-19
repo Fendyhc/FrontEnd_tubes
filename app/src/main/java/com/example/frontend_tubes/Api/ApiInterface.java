@@ -1,5 +1,6 @@
 package com.example.frontend_tubes.Api;
 
+
 import com.example.frontend_tubes.DAO.detilTransaksiDAO;
 import com.example.frontend_tubes.DAO.eventDAO;
 import com.example.frontend_tubes.DAO.transaksiDAO;
@@ -16,11 +17,13 @@ import retrofit2.http.GET;
 import retrofit2.http.POST;
 import retrofit2.http.PUT;
 import retrofit2.http.Path;
+import retrofit2.http.Query;
 
 public interface ApiInterface {
 
 
     //USER-api
+    @POST("user/create.php")
     @FormUrlEncoded
     Call<String> createUser(@Field("nama") String nama,
                             @Field("npm") String npm,
@@ -29,9 +32,12 @@ public interface ApiInterface {
                             @Field("telp") String telp,
                             @Field("username") String username,
                             @Field("password") String password);
+
+    @DELETE("user/delete.php")
     @FormUrlEncoded
     Call<String> deleteUser(@Field("id") String id);
 
+    @PUT("user/edit.php")
     @FormUrlEncoded
     Call<String> editUser(@Field("nama") String nama,
                           @Field("npm") String npm,
@@ -42,11 +48,14 @@ public interface ApiInterface {
                           @Field("password") String password,
                           @Field("id") String id);
 
-    Call<userDAO> loginUser(@Path("username") String username);
+    @GET("user/login.php")
+    Call<userDAO> loginUser(@Query("username") String username);
 
+    @GET("user/viewAll.php")
     Call<List<userDAO>> viewAllUser();
 
     //Event
+    @POST("event/create.php")
     @FormUrlEncoded
     Call<String> createEvent(@Field("nama") String nama,
                              @Field("kategori") String kategeori,
@@ -61,6 +70,7 @@ public interface ApiInterface {
                              @Field("username") String username,
                              @Field("password") String password,
                              @Field("email") String email);
+    @PUT("event/edit.php")
     @FormUrlEncoded
     Call<String> editEvent(@Field("nama") String nama,
                            @Field("kategori") String kategeori,
@@ -76,50 +86,51 @@ public interface ApiInterface {
                            @Field("password") String password,
                            @Field("email") String email,
                            @Field("id") String id);
-
+    @DELETE("event/delete.php")
     Call<String> deleteEvent(@Field("id") String id);
-
-    Call<eventDAO> loginEvent(@Path("username") String username);
-
-    Call<List<eventDAO>> searchById(@Path("id") String id);
-
+    @GET("event/login.php")
+    Call<eventDAO> loginEvent(@Query("username") String username);
+    @GET("event/searchById.php")
+    Call<List<eventDAO>> searchById(@Query("id") String id);
+    @GET("event/searchByKategori.php")
     Call<List<eventDAO>> searchByKategori(@Path("kategori") String kategori);
-
+    @GET("event/searchByNama.php")
     Call<List<eventDAO>> searchByNama(@Path("nama") String nama);
-
+    @GET("event/searchByPenyelenggara")
     Call<List<eventDAO>> searchByPenyelenggara(@Path("penyelenggara") String penyelenggara);
-
+    @GET("event/viewAll.php")
     Call<List<eventDAO>> viewAllEvent();
 
     //TRANSAKSI
+    @POST("transaksi/create.php")
     @FormUrlEncoded
     Call<String> createTransaksi(@Field("id_user") String id_event,
                                  @Field("id_event") String id_user,
                                  @Field("status") String status);
-
-    Call<String> confirmTransaksi(@Path("id") String id);
-
-    Call<List<transaksiDAO>> searchByEvent(@Path("id") String id);
-
-    Call<List<transaksiDAO>> searchByUser(@Path("id") String id);
+    @PUT("transaksi/confirm.php")
+    Call<String> confirmTransaksi(@Query("id") String id);
+    @GET("transaksi/searchByEvent.php")
+    Call<List<transaksiDAO>> searchByEvent(@Query("id") String id);
+    @GET("transaksi/searchByUser.php")
+    Call<List<transaksiDAO>> searchByUser(@Query("id") String id);
 
     //detilTransaksi
+    @POST("detilTransaksi/create.php")
     @FormUrlEncoded
     Call<String> createDetilTransaksi(@Field("id_transaksi") String id_transaksi,
                                       @Field("no_rek") String no_rek,
                                       @Field("nama_rek") String nama_rek);
-
+    @PUT("detilTransaksi/edit.php")
     @FormUrlEncoded
     Call<String> editDetilTransaksi(@Field("id_transaksi") String id_transaksi,
                                     @Field("no_rek") String no_rek,
                                     @Field("nama_rek") String nama_rek);
-
-    Call<detilTransaksiDAO> viewDetilTransaksi(@Path("id") String id);
+    @GET("detilTransaksi/view.php")
+    Call<detilTransaksiDAO> viewDetilTransaksi(@Query("id") String id);
 
     //USER TICKETS
-    Call<List<userTicketDAO>> viewUserTickts(@Path("id") String id);
-
-    Call<List<userTicketDAO>> viewEOUserTickets(@Path("id") String id);
-
-
+    @GET("userTicket/view.php")
+    Call<List<userTicketDAO>> viewUserTickts(@Query("id") String id);
+    @GET("userTicket/viewEO.php")
+    Call<List<userTicketDAO>> viewEOUserTickets(@Query("id") String id);
 }
